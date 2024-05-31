@@ -13,35 +13,27 @@ module "your_module" {
 }
 ```
 
-### Providers
+## Providers
 
-Detail providers
+| Name  | Version |
+| ----- | ------- |
+| local | 2.5.1   |
 
-| Name | Version |
-| ------------ | -------------------------------- |
-| local | 2.5.1 |
+## Resources
 
-### Resources
+| Name           | Type        |
+| -------------- | ----------- |
+| terraform_data | resource    |
+| local_file     | data source |
 
-Detail resources
+## Inputs
 
-| Name | Type |
-| ------------ | -------------------------------- |
-| terraform_data | resource |
-| local_file | data source |
-
-### Inputs
-
-Detail resources
-
-| Name | Description |
-| ------------ | -------------------------------- |
+| Name          | Description         |
+| ------------- | ------------------- |
 | your_variable | An example variable |
 
-### Outputs
+## Outputs
 
-Detail resources
-
-| Name | Description |
-| ------------ | -------------------------------- |
+| Name      | Description       |
+| --------- | ----------------- |
 | an_output | An example output |
