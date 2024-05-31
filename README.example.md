@@ -1,6 +1,6 @@
 # My module name
 
-Description of the module does and requires.
+Description of what the module does and requires.
 
 ## Usage
 
@@ -18,25 +18,30 @@ module "your_module" {
 Detail providers
 
 | Name | Version |
-| ---- | ------- |
+| ------------ | -------------------------------- |
+| local | 2.5.1 |
 
 ### Resources
 
 Detail resources
 
-| Name | Version |
-| ---- | ------- |
+| Name | Type |
+| ------------ | -------------------------------- |
+| terraform_data | resource |
+| local_file | data source |
 
 ### Inputs
 
 Detail resources
 
-| Name | Version |
-| ---- | ------- |
+| Name | Description |
+| ------------ | -------------------------------- |
+| your_variable | An example variable |
 
 ### Outputs
 
 Detail resources
 
-| Name | Version |
-| ---- | ------- |
+| Name | Description |
+| ------------ | -------------------------------- |
+| an_output | An example output |
